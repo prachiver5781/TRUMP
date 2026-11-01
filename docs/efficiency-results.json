@@ -1,0 +1,64 @@
+{
+  "benchmark": "Synthetic offline fixture; four dependencies, two findings, one source file",
+  "measured_at": "2026-11-01T02:51:05.383Z",
+  "records": [
+    {
+      "mode": "summary",
+      "serialized_tool_result_bytes": 1387,
+      "network_requests": 3,
+      "metrics": {
+        "files_examined": 3,
+        "files_skipped": 0,
+        "directories_skipped": 0,
+        "dependencies": 4,
+        "advisories_queried": 2,
+        "osv_requests": 3,
+        "cache_hits": 0,
+        "cache_misses": 8,
+        "static_files_reused": 0,
+        "static_files_analyzed": 1,
+        "findings_returned": 1,
+        "response_bytes": 1387
+      }
+    },
+    {
+      "mode": "standard",
+      "serialized_tool_result_bytes": 1728,
+      "network_requests": 0,
+      "metrics": {
+        "files_examined": 3,
+        "files_skipped": 0,
+        "directories_skipped": 0,
+        "dependencies": 4,
+        "advisories_queried": 0,
+        "osv_requests": 0,
+        "cache_hits": 6,
+        "cache_misses": 0,
+        "static_files_reused": 1,
+        "static_files_analyzed": 0,
+        "findings_returned": 2,
+        "response_bytes": 1728
+      }
+    },
+    {
+      "mode": "detailed",
+      "serialized_tool_result_bytes": 2420,
+      "network_requests": 0,
+      "metrics": {
+        "files_examined": 3,
+        "files_skipped": 0,
+        "directories_skipped": 0,
+        "dependencies": 4,
+        "advisories_queried": 0,
+        "osv_requests": 0,
+        "cache_hits": 6,
+        "cache_misses": 0,
+        "static_files_reused": 1,
+        "static_files_analyzed": 0,
+        "findings_returned": 2,
+        "response_bytes": 2420
+      }
+    }
+  ],
+  "token_savings": "Not measured; model-token counts depend on the consuming client."
+}

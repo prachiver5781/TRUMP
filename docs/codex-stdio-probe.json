@@ -1,0 +1,25 @@
+{
+  "observed_at": "2026-11-01T03:04:43.447Z",
+  "platform": "win32",
+  "node": "v24.15.0",
+  "server": {
+    "name": "traceguard-mcp",
+    "version": "0.1.1"
+  },
+  "initialization": "passed",
+  "tools": [
+    "scan_repository",
+    "scan_zip",
+    "generate_sbom",
+    "check_vulnerabilities",
+    "get_dependency_graph",
+    "analyze_reachability",
+    "get_impact_analysis",
+    "generate_remediation_plan",
+    "verify_fixes",
+    "get_scan_summary",
+    "get_finding_details"
+  ],
+  "stderr": "",
+  "codex_client_tested": false
+}

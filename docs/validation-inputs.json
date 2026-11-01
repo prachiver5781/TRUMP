@@ -1,0 +1,21 @@
+{
+  "prepared_at": "2026-11-01T02:40:39.513Z",
+  "registry": "https://registry.npmjs.org",
+  "root": "C:\\Users\\rajpu\\OneDrive\\Desktop\\trackgaurd\\.traceguard\\validation-inputs\\f672f1f6-1099-4094-a805-3545b1da0e21",
+  "repositories": [
+    {
+      "directory": "C:\\Users\\rajpu\\OneDrive\\Desktop\\trackgaurd\\.traceguard\\validation-inputs\\f672f1f6-1099-4094-a805-3545b1da0e21\\repository",
+      "lodash_version": "4.17.20",
+      "lockfile_version": 3,
+      "locked_packages": 52
+    },
+    {
+      "directory": "C:\\Users\\rajpu\\OneDrive\\Desktop\\trackgaurd\\.traceguard\\validation-inputs\\f672f1f6-1099-4094-a805-3545b1da0e21\\updated-repository",
+      "lodash_version": "4.17.21",
+      "lockfile_version": 3,
+      "locked_packages": 52
+    }
+  ],
+  "target_code_executed": false,
+  "dependency_installation": "package-lock-only; no node_modules or lifecycle scripts"
+}

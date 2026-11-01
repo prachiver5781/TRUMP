@@ -1,0 +1,120 @@
+{
+  "observed_at": "2026-11-01T02:54:50.171Z",
+  "package": "lodash",
+  "version": "4.17.20",
+  "findings": [
+    {
+      "advisory_ids": [
+        "GHSA-35jh-r3h4-6jhm"
+      ],
+      "cves": [
+        "CVE-2021-23337"
+      ],
+      "severity": "HIGH",
+      "reachability": "UNKNOWN"
+    },
+    {
+      "advisory_ids": [
+        "GHSA-r5fr-rjxr-66jc"
+      ],
+      "cves": [
+        "CVE-2026-4800"
+      ],
+      "severity": "HIGH",
+      "reachability": "UNKNOWN"
+    },
+    {
+      "advisory_ids": [
+        "GHSA-xxjr-mmjv-4gpg"
+      ],
+      "cves": [
+        "CVE-2025-13465"
+      ],
+      "severity": "MEDIUM",
+      "reachability": "UNKNOWN"
+    },
+    {
+      "advisory_ids": [
+        "GHSA-f23m-r3pf-42rh"
+      ],
+      "cves": [
+        "CVE-2026-2950"
+      ],
+      "severity": "MEDIUM",
+      "reachability": "UNKNOWN"
+    },
+    {
+      "advisory_ids": [
+        "GHSA-29mw-wpgm-hmr9"
+      ],
+      "cves": [
+        "CVE-2020-28500"
+      ],
+      "severity": "MEDIUM",
+      "reachability": "UNKNOWN"
+    }
+  ],
+  "remediation_example": {
+    "finding_id": "3e96160d1c6e352e14a7e8d4",
+    "affected_package": "lodash",
+    "installed_version": "4.17.20",
+    "advisory_fixed_candidates": [
+      "4.17.21"
+    ],
+    "verification": "No unaffected candidate could be verified. No safe version is asserted.",
+    "breaking_change_considerations": "Even a patch/minor or 0.x update can change behavior; review upstream release notes.",
+    "testing_instructions": [
+      "Review the advisory references and candidate release notes.",
+      "After explicit approval, update the appropriate manifest section and lockfile; preserve dev/optional dependency classification.",
+      "Run the project test/build suite in a trusted environment, then call verify_fixes with the previous scan_id."
+    ],
+    "remaining_uncertainty": [
+      "OSV absence does not prove safety; unknown vulnerabilities and registry publication/availability are not verified."
+    ]
+  },
+  "stdio_summary": {
+    "scan_id": "0dcf013f-8eb2-44aa-ae84-bd7eee50af72",
+    "project_name": "traceguard-real-osv-test",
+    "total_dependencies": 1,
+    "direct_dependencies": 1,
+    "transitive_dependencies": 0,
+    "vulnerability_status": "complete",
+    "vulnerability_counts": {
+      "CRITICAL": 0,
+      "HIGH": 2,
+      "MEDIUM": 3,
+      "LOW": 0,
+      "UNKNOWN": 0
+    },
+    "total_findings": 5,
+    "critical_findings": [],
+    "reachability_summary": {
+      "REACHABLE": 0,
+      "NOT_REACHABLE": 0,
+      "UNKNOWN": 5
+    },
+    "risk_summary": "Known vulnerable installed versions detected. Exploitability is assessed separately and may remain unknown.",
+    "checked_at": "2026-11-01T02:54:48.586Z",
+    "warning_count": 0,
+    "warnings": [],
+    "warnings_truncated": false,
+    "truncated": true,
+    "next_cursor": "eyJzY29wZSI6IjcwNGFlODY5MmI5NTIyOGNkZTY1OWVlOWVkMzZiNjZkMDc2N2ExMTc4YjJlODZjMjIwNmExNjJjMzkxODJjZjQiLCJvZmZzZXQiOjB9.lja2VpS7VpW4oxtceUHckV5qfUwOatVgol6Ql12WDIE",
+    "next_tool": "check_vulnerabilities",
+    "metrics": {
+      "files_examined": 4,
+      "files_skipped": 0,
+      "directories_skipped": 0,
+      "dependencies": 1,
+      "advisories_queried": 0,
+      "osv_requests": 0,
+      "cache_hits": 4,
+      "cache_misses": 0,
+      "static_files_reused": 2,
+      "static_files_analyzed": 0,
+      "findings_returned": 0,
+      "response_bytes": 1199
+    }
+  },
+  "serialized_tool_result_bytes": 1199
+}

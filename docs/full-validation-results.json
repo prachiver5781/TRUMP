@@ -1,0 +1,1011 @@
+{
+  "started_at": "2026-11-01T02:47:03.682Z",
+  "platform": "win32",
+  "node": "v24.15.0",
+  "input_preparation": {
+    "prepared_at": "2026-11-01T02:40:39.513Z",
+    "registry": "https://registry.npmjs.org",
+    "root": "C:\\Users\\rajpu\\OneDrive\\Desktop\\trackgaurd\\.traceguard\\validation-inputs\\f672f1f6-1099-4094-a805-3545b1da0e21",
+    "repositories": [
+      {
+        "directory": "C:\\Users\\rajpu\\OneDrive\\Desktop\\trackgaurd\\.traceguard\\validation-inputs\\f672f1f6-1099-4094-a805-3545b1da0e21\\repository",
+        "lodash_version": "4.17.20",
+        "lockfile_version": 3,
+        "locked_packages": 52
+      },
+      {
+        "directory": "C:\\Users\\rajpu\\OneDrive\\Desktop\\trackgaurd\\.traceguard\\validation-inputs\\f672f1f6-1099-4094-a805-3545b1da0e21\\updated-repository",
+        "lodash_version": "4.17.21",
+        "lockfile_version": 3,
+        "locked_packages": 52
+      }
+    ],
+    "target_code_executed": false,
+    "dependency_installation": "package-lock-only; no node_modules or lifecycle scripts"
+  },
+  "assertions": [
+    "STDIO initialization and all 11 tool schemas discovered",
+    "real repository scan completed with actual OSV findings",
+    "findings pagination has no duplicate or missing findings",
+    "findings and safe dependency cross-checked against direct real OSV responses",
+    "direct/transitive dependency graph and parent/child references validated",
+    "actual transitive vulnerability impact paths verified",
+    "real AST imports/declarations/calls and conservative reachability outputs verified",
+    "CycloneDX SBOM validated against the official 1.5 schema and external schema references",
+    "warm scan reuses AST/dependency/advisory caches with exactly zero OSV requests",
+    "real ZIP scanned with fresh OSV responses; counts match repository and extraction is cleaned",
+    "real advisory-backed remediation and pagination invoked",
+    "fresh real dependency-change comparison reports resolved and remaining findings",
+    "path/cursor errors, no target installation/mutation, compact output and clean server stderr verified"
+  ],
+  "calls": [
+    {
+      "tool": "scan_repository",
+      "bytes": 1429,
+      "is_error": false
+    },
+    {
+      "tool": "check_vulnerabilities",
+      "bytes": 1111,
+      "is_error": false
+    },
+    {
+      "tool": "check_vulnerabilities",
+      "bytes": 1084,
+      "is_error": false
+    },
+    {
+      "tool": "check_vulnerabilities",
+      "bytes": 1087,
+      "is_error": false
+    },
+    {
+      "tool": "check_vulnerabilities",
+      "bytes": 1210,
+      "is_error": false
+    },
+    {
+      "tool": "check_vulnerabilities",
+      "bytes": 1115,
+      "is_error": false
+    },
+    {
+      "tool": "check_vulnerabilities",
+      "bytes": 1115,
+      "is_error": false
+    },
+    {
+      "tool": "check_vulnerabilities",
+      "bytes": 1114,
+      "is_error": false
+    },
+    {
+      "tool": "check_vulnerabilities",
+      "bytes": 1144,
+      "is_error": false
+    },
+    {
+      "tool": "check_vulnerabilities",
+      "bytes": 1101,
+      "is_error": false
+    },
+    {
+      "tool": "check_vulnerabilities",
+      "bytes": 932,
+      "is_error": false
+    },
+    {
+      "tool": "get_dependency_graph",
+      "bytes": 1434,
+      "is_error": false
+    },
+    {
+      "tool": "get_dependency_graph",
+      "bytes": 1238,
+      "is_error": false
+    },
+    {
+      "tool": "get_dependency_graph",
+      "bytes": 1231,
+      "is_error": false
+    },
+    {
+      "tool": "get_dependency_graph",
+      "bytes": 1200,
+      "is_error": false
+    },
+    {
+      "tool": "get_dependency_graph",
+      "bytes": 1307,
+      "is_error": false
+    },
+    {
+      "tool": "get_dependency_graph",
+      "bytes": 2065,
+      "is_error": false
+    },
+    {
+      "tool": "get_dependency_graph",
+      "bytes": 1388,
+      "is_error": false
+    },
+    {
+      "tool": "get_dependency_graph",
+      "bytes": 1129,
+      "is_error": false
+    },
+    {
+      "tool": "get_dependency_graph",
+      "bytes": 1140,
+      "is_error": false
+    },
+    {
+      "tool": "get_dependency_graph",
+      "bytes": 1124,
+      "is_error": false
+    },
+    {
+      "tool": "get_dependency_graph",
+      "bytes": 1175,
+      "is_error": false
+    },
+    {
+      "tool": "get_dependency_graph",
+      "bytes": 1307,
+      "is_error": false
+    },
+    {
+      "tool": "get_dependency_graph",
+      "bytes": 1231,
+      "is_error": false
+    },
+    {
+      "tool": "get_dependency_graph",
+      "bytes": 1286,
+      "is_error": false
+    },
+    {
+      "tool": "get_dependency_graph",
+      "bytes": 1582,
+      "is_error": false
+    },
+    {
+      "tool": "get_dependency_graph",
+      "bytes": 1261,
+      "is_error": false
+    },
+    {
+      "tool": "get_dependency_graph",
+      "bytes": 1244,
+      "is_error": false
+    },
+    {
+      "tool": "get_dependency_graph",
+      "bytes": 562,
+      "is_error": false
+    },
+    {
+      "tool": "get_impact_analysis",
+      "bytes": 978,
+      "is_error": false
+    },
+    {
+      "tool": "analyze_reachability",
+      "bytes": 1424,
+      "is_error": false
+    },
+    {
+      "tool": "analyze_reachability",
+      "bytes": 1436,
+      "is_error": false
+    },
+    {
+      "tool": "analyze_reachability",
+      "bytes": 1423,
+      "is_error": false
+    },
+    {
+      "tool": "analyze_reachability",
+      "bytes": 1426,
+      "is_error": false
+    },
+    {
+      "tool": "analyze_reachability",
+      "bytes": 1419,
+      "is_error": false
+    },
+    {
+      "tool": "analyze_reachability",
+      "bytes": 1437,
+      "is_error": false
+    },
+    {
+      "tool": "analyze_reachability",
+      "bytes": 934,
+      "is_error": false
+    },
+    {
+      "tool": "get_finding_details",
+      "bytes": 5035,
+      "is_error": false
+    },
+    {
+      "tool": "analyze_reachability",
+      "bytes": 483,
+      "is_error": false
+    },
+    {
+      "tool": "generate_sbom",
+      "bytes": 524,
+      "is_error": false
+    },
+    {
+      "tool": "generate_sbom",
+      "bytes": 524,
+      "is_error": false
+    },
+    {
+      "tool": "get_scan_summary",
+      "bytes": 1429,
+      "is_error": false
+    },
+    {
+      "tool": "scan_repository",
+      "bytes": 1427,
+      "is_error": false
+    },
+    {
+      "tool": "scan_zip",
+      "bytes": 1428,
+      "is_error": false
+    },
+    {
+      "tool": "generate_remediation_plan",
+      "bytes": 2738,
+      "is_error": false
+    },
+    {
+      "tool": "generate_remediation_plan",
+      "bytes": 2424,
+      "is_error": false
+    },
+    {
+      "tool": "verify_fixes",
+      "bytes": 1325,
+      "is_error": false
+    },
+    {
+      "tool": "check_vulnerabilities",
+      "bytes": 714,
+      "is_error": false
+    },
+    {
+      "tool": "get_dependency_graph",
+      "bytes": 301,
+      "is_error": true
+    },
+    {
+      "tool": "scan_repository",
+      "bytes": 292,
+      "is_error": true
+    }
+  ],
+  "mocked_production_components": [],
+  "macos_tested": false,
+  "codex_client_tested": false,
+  "server": {
+    "name": "traceguard-mcp",
+    "version": "0.1.1"
+  },
+  "server_capabilities": {
+    "tools": {
+      "listChanged": true
+    }
+  },
+  "discovered_tools": [
+    "scan_repository",
+    "scan_zip",
+    "generate_sbom",
+    "check_vulnerabilities",
+    "get_dependency_graph",
+    "analyze_reachability",
+    "get_impact_analysis",
+    "generate_remediation_plan",
+    "verify_fixes",
+    "get_scan_summary",
+    "get_finding_details"
+  ],
+  "repository_summary": {
+    "scan_id": "4c8e816b-1124-43e5-8668-324fff7bb2c9",
+    "project_name": "traceguard-live-validation-app",
+    "total_dependencies": 52,
+    "direct_dependencies": 3,
+    "transitive_dependencies": 49,
+    "vulnerability_status": "complete",
+    "vulnerability_counts": {
+      "CRITICAL": 0,
+      "HIGH": 7,
+      "MEDIUM": 7,
+      "LOW": 6,
+      "UNKNOWN": 0
+    },
+    "total_findings": 20,
+    "critical_findings": [],
+    "reachability_summary": {
+      "REACHABLE": 0,
+      "NOT_REACHABLE": 0,
+      "UNKNOWN": 20
+    },
+    "risk_summary": "Known vulnerable installed versions detected. Exploitability is assessed separately and may remain unknown.",
+    "checked_at": "2026-11-01T02:47:05.455Z",
+    "warning_count": 5,
+    "warnings": [
+      "index.js: Unresolved calls or function-value flows may invoke additional code.",
+      "index.js: Callback or function-value arguments are unsupported.",
+      "index.js: Nested functions, callbacks, and methods are not resolved."
+    ],
+    "warnings_truncated": true,
+    "truncated": true,
+    "next_cursor": "eyJzY29wZSI6IjQ2Y2E1Y2IzZmZhMzFiMWUyNDgxMDRhY2RlYTM2MzdjZGJjOWI0OGQ3ZjNhZTIwOWM1ODRiMTEyODJlNjhlMTgiLCJvZmZzZXQiOjB9.3hTMTAG1tCuFDpMLsDtw0kR2jMXl8M-gfE4hUgg9S3w",
+    "next_tool": "check_vulnerabilities",
+    "metrics": {
+      "files_examined": 4,
+      "files_skipped": 0,
+      "directories_skipped": 0,
+      "dependencies": 52,
+      "advisories_queried": 21,
+      "osv_requests": 22,
+      "cache_hits": 0,
+      "cache_misses": 76,
+      "static_files_reused": 0,
+      "static_files_analyzed": 2,
+      "findings_returned": 0,
+      "response_bytes": 1429
+    }
+  },
+  "findings": {
+    "items": [
+      {
+        "finding_id": "028c69fbcb2b2ea0c15ec379",
+        "package": "body-parser",
+        "version": "1.19.0",
+        "severity": "HIGH",
+        "advisory_ids": [
+          "GHSA-27r3-jxmh-p828"
+        ],
+        "reachability": "UNKNOWN",
+        "cves": [
+          "CVE-2026-111181"
+        ],
+        "direct": false,
+        "summary": "body-parser vulnerable to Denial of Service via trailing bytes after a compressed request body"
+      },
+      {
+        "finding_id": "201ab8fafe628a0ac64af490",
+        "package": "qs",
+        "version": "6.7.0",
+        "severity": "HIGH",
+        "advisory_ids": [
+          "GHSA-hrpp-h998-j3pp"
+        ],
+        "reachability": "UNKNOWN",
+        "cves": [
+          "CVE-2022-24999"
+        ],
+        "direct": false,
+        "summary": "qs vulnerable to Prototype Pollution"
+      },
+      {
+        "finding_id": "3e96160d1c6e352e14a7e8d4",
+        "package": "lodash",
+        "version": "4.17.20",
+        "severity": "HIGH",
+        "advisory_ids": [
+          "GHSA-35jh-r3h4-6jhm"
+        ],
+        "reachability": "UNKNOWN",
+        "cves": [
+          "CVE-2021-23337"
+        ],
+        "direct": true,
+        "summary": "Command Injection in lodash"
+      },
+      {
+        "finding_id": "40a7c354f232704de6636a27",
+        "package": "body-parser",
+        "version": "1.19.0",
+        "severity": "HIGH",
+        "advisory_ids": [
+          "GHSA-qwcr-r2fm-qrc7"
+        ],
+        "reachability": "UNKNOWN",
+        "cves": [
+          "CVE-2024-45590"
+        ],
+        "direct": false,
+        "summary": "body-parser vulnerable to denial of service when url encoding is enabled"
+      },
+      {
+        "finding_id": "c7f452923ceeec0e6ee47019",
+        "package": "lodash",
+        "version": "4.17.20",
+        "severity": "HIGH",
+        "advisory_ids": [
+          "GHSA-r5fr-rjxr-66jc"
+        ],
+        "reachability": "UNKNOWN",
+        "cves": [
+          "CVE-2026-4800"
+        ],
+        "direct": true,
+        "summary": "lodash vulnerable to Code Injection via `_.template` imports key names"
+      },
+      {
+        "finding_id": "cf52222a94a8f58373227f6e",
+        "package": "path-to-regexp",
+        "version": "0.1.7",
+        "severity": "HIGH",
+        "advisory_ids": [
+          "GHSA-rhx6-c78j-4q9w"
+        ],
+        "reachability": "UNKNOWN",
+        "cves": [
+          "CVE-2024-52798"
+        ],
+        "direct": false,
+        "summary": "path-to-regexp contains a ReDoS"
+      },
+      {
+        "finding_id": "fd74bf5753e9da232075109a",
+        "package": "path-to-regexp",
+        "version": "0.1.7",
+        "severity": "HIGH",
+        "advisory_ids": [
+          "GHSA-37ch-88jc-xwx2",
+          "GHSA-9wv6-86v2-598j"
+        ],
+        "reachability": "UNKNOWN",
+        "cves": [
+          "CVE-2024-45296",
+          "CVE-2026-4867"
+        ],
+        "direct": false,
+        "summary": "path-to-regexp outputs backtracking regular expressions"
+      },
+      {
+        "finding_id": "178140a0d2b6419b834c92b7",
+        "package": "qs",
+        "version": "6.7.0",
+        "severity": "MEDIUM",
+        "advisory_ids": [
+          "GHSA-6pq8-jhm2-2vcw"
+        ],
+        "reachability": "UNKNOWN",
+        "cves": [
+          "CVE-2026-110816"
+        ],
+        "direct": false,
+        "summary": "qs : qs.stringify with arrayFormat 'comma' throws an uncaught TypeError on array elements carrying a non-callable own toString (DoS)"
+      },
+      {
+        "finding_id": "349333ae8c472827e47fbfa7",
+        "package": "qs",
+        "version": "6.7.0",
+        "severity": "MEDIUM",
+        "advisory_ids": [
+          "GHSA-4mjr-xmp4-gh2g"
+        ],
+        "reachability": "UNKNOWN",
+        "cves": [
+          "CVE-2026-82417"
+        ],
+        "direct": false,
+        "summary": "qs: Denial of Service via Attacker Controlled isBuffer"
+      },
+      {
+        "finding_id": "48891e25fab2dffb74d919cd",
+        "package": "lodash",
+        "version": "4.17.20",
+        "severity": "MEDIUM",
+        "advisory_ids": [
+          "GHSA-xxjr-mmjv-4gpg"
+        ],
+        "reachability": "UNKNOWN",
+        "cves": [
+          "CVE-2025-13465"
+        ],
+        "direct": true,
+        "summary": "Lodash has Prototype Pollution Vulnerability in `_.unset` and `_.omit` functions"
+      },
+      {
+        "finding_id": "48f914fce9e1102bfdd45bf0",
+        "package": "express",
+        "version": "4.17.1",
+        "severity": "MEDIUM",
+        "advisory_ids": [
+          "GHSA-rv95-896h-c2vc"
+        ],
+        "reachability": "UNKNOWN",
+        "cves": [
+          "CVE-2024-29041"
+        ],
+        "direct": true,
+        "summary": "Express.js Open Redirect in malformed URLs"
+      },
+      {
+        "finding_id": "9784c5a7db6593ddc7a30bda",
+        "package": "lodash",
+        "version": "4.17.20",
+        "severity": "MEDIUM",
+        "advisory_ids": [
+          "GHSA-f23m-r3pf-42rh"
+        ],
+        "reachability": "UNKNOWN",
+        "cves": [
+          "CVE-2026-2950"
+        ],
+        "direct": true,
+        "summary": "lodash vulnerable to Prototype Pollution via array path bypass in `_.unset` and `_.omit`"
+      },
+      {
+        "finding_id": "dc217a15e7c67382821dd80c",
+        "package": "lodash",
+        "version": "4.17.20",
+        "severity": "MEDIUM",
+        "advisory_ids": [
+          "GHSA-29mw-wpgm-hmr9"
+        ],
+        "reachability": "UNKNOWN",
+        "cves": [
+          "CVE-2020-28500"
+        ],
+        "direct": true,
+        "summary": "Regular Expression Denial of Service (ReDoS) in lodash"
+      },
+      {
+        "finding_id": "fc6eefe2f14a787640946903",
+        "package": "qs",
+        "version": "6.7.0",
+        "severity": "MEDIUM",
+        "advisory_ids": [
+          "GHSA-6rw7-vpxm-498p"
+        ],
+        "reachability": "UNKNOWN",
+        "cves": [
+          "CVE-2025-15284"
+        ],
+        "direct": false,
+        "summary": "qs's arrayLimit bypass in its bracket notation allows DoS via memory exhaustion"
+      },
+      {
+        "finding_id": "462e6a9eb8f69f6736577ab3",
+        "package": "send",
+        "version": "0.17.1",
+        "severity": "LOW",
+        "advisory_ids": [
+          "GHSA-m6fv-jmcg-4jfg"
+        ],
+        "reachability": "UNKNOWN",
+        "cves": [
+          "CVE-2024-43799"
+        ],
+        "direct": false,
+        "summary": "send vulnerable to template injection that can lead to XSS"
+      },
+      {
+        "finding_id": "6fd1f6ae2504fab4016e6522",
+        "package": "body-parser",
+        "version": "1.19.0",
+        "severity": "LOW",
+        "advisory_ids": [
+          "GHSA-v422-hmwv-36x6"
+        ],
+        "reachability": "UNKNOWN",
+        "cves": [
+          "CVE-2026-12590"
+        ],
+        "direct": false,
+        "summary": "body-parser vulnerable to denial of service when invalid limit value silently disables size enforcement"
+      },
+      {
+        "finding_id": "992b31e0e82b6422c656816c",
+        "package": "express",
+        "version": "4.17.1",
+        "severity": "LOW",
+        "advisory_ids": [
+          "GHSA-qw6h-vgh9-j6wx"
+        ],
+        "reachability": "UNKNOWN",
+        "cves": [
+          "CVE-2024-43796"
+        ],
+        "direct": true,
+        "summary": "express vulnerable to XSS via response.redirect()"
+      },
+      {
+        "finding_id": "ab20361c9ff9b2853aa51a1b",
+        "package": "serve-static",
+        "version": "1.14.1",
+        "severity": "LOW",
+        "advisory_ids": [
+          "GHSA-cm22-4g7w-348p"
+        ],
+        "reachability": "UNKNOWN",
+        "cves": [
+          "CVE-2024-43800"
+        ],
+        "direct": false,
+        "summary": "serve-static vulnerable to template injection that can lead to XSS"
+      },
+      {
+        "finding_id": "acb3773c9717080ecbf7db09",
+        "package": "cookie",
+        "version": "0.4.0",
+        "severity": "LOW",
+        "advisory_ids": [
+          "GHSA-pxg6-pf52-xh8x"
+        ],
+        "reachability": "UNKNOWN",
+        "cves": [
+          "CVE-2024-47764"
+        ],
+        "direct": false,
+        "summary": "cookie accepts cookie name, path, and domain with out of bounds characters"
+      },
+      {
+        "finding_id": "e443cb86ca6c7d1232e1a6e3",
+        "package": "qs",
+        "version": "6.7.0",
+        "severity": "LOW",
+        "advisory_ids": [
+          "GHSA-w7fw-mjwx-w883"
+        ],
+        "reachability": "UNKNOWN",
+        "cves": [
+          "CVE-2026-2391"
+        ],
+        "direct": false,
+        "summary": "qs's arrayLimit bypass in comma parsing allows denial of service"
+      }
+    ],
+    "pages": 10
+  },
+  "osv_oracle": {
+    "lodash_advisory_ids": [
+      "GHSA-29mw-wpgm-hmr9",
+      "GHSA-35jh-r3h4-6jhm",
+      "GHSA-f23m-r3pf-42rh",
+      "GHSA-r5fr-rjxr-66jc",
+      "GHSA-xxjr-mmjv-4gpg"
+    ],
+    "is_number_7_0_0_advisories": 0
+  },
+  "graph": {
+    "nodes": 52,
+    "pages": 18,
+    "edges": 84,
+    "express_children": [
+      "node_modules/accepts",
+      "node_modules/array-flatten",
+      "node_modules/body-parser",
+      "node_modules/content-disposition",
+      "node_modules/content-type",
+      "node_modules/cookie",
+      "node_modules/cookie-signature",
+      "node_modules/debug",
+      "node_modules/depd",
+      "node_modules/encodeurl",
+      "node_modules/escape-html",
+      "node_modules/etag",
+      "node_modules/finalhandler",
+      "node_modules/fresh",
+      "node_modules/merge-descriptors",
+      "node_modules/methods",
+      "node_modules/on-finished",
+      "node_modules/parseurl",
+      "node_modules/path-to-regexp",
+      "node_modules/proxy-addr",
+      "node_modules/qs",
+      "node_modules/range-parser",
+      "node_modules/safe-buffer",
+      "node_modules/send",
+      "node_modules/serve-static",
+      "node_modules/setprototypeof",
+      "node_modules/statuses",
+      "node_modules/type-is",
+      "node_modules/utils-merge",
+      "node_modules/vary"
+    ]
+  },
+  "transitive_impact": {
+    "finding": {
+      "finding_id": "028c69fbcb2b2ea0c15ec379",
+      "package": "body-parser",
+      "version": "1.19.0",
+      "severity": "HIGH",
+      "advisory_ids": [
+        "GHSA-27r3-jxmh-p828"
+      ],
+      "reachability": "UNKNOWN",
+      "cves": [
+        "CVE-2026-111181"
+      ],
+      "direct": false,
+      "summary": "body-parser vulnerable to Denial of Service via trailing bytes after a compressed request body"
+    },
+    "paths": [
+      [
+        "root",
+        "node_modules/express",
+        "node_modules/body-parser"
+      ]
+    ]
+  },
+  "reachability": {
+    "counts": {
+      "REACHABLE": 0,
+      "NOT_REACHABLE": 0,
+      "UNKNOWN": 20
+    },
+    "real_reachable_function_proven": false
+  },
+  "static_analysis": [
+    {
+      "file": "index.js",
+      "imports": 2,
+      "functions": 0,
+      "calls": 2,
+      "unsupported": [
+        "Unresolved calls or function-value flows may invoke additional code.",
+        "Callback or function-value arguments are unsupported.",
+        "Nested functions, callbacks, and methods are not resolved."
+      ]
+    },
+    {
+      "file": "src/render.js",
+      "imports": 1,
+      "functions": 1,
+      "calls": 1,
+      "unsupported": [
+        "Calls through expression results or computed targets are unsupported."
+      ]
+    }
+  ],
+  "sbom": {
+    "components": 52,
+    "artifact_path": "C:\\Users\\rajpu\\OneDrive\\Desktop\\trackgaurd\\.traceguard\\validation-inputs\\f672f1f6-1099-4094-a805-3545b1da0e21\\server-data-acd980b7-07d1-4ed1-8546-5fa768b487c8\\artifacts\\41e7b6e1-8485-41f8-9d30-d00680a028dd.cdx.json",
+    "valid": true,
+    "schema_sources": [
+      {
+        "url": "https://cyclonedx.org/schema/spdx.schema.json",
+        "sha256": "33863a360fc4d348e183d89c1ca7aa0877f481e7eb55be2d4102a30386188a10"
+      },
+      {
+        "url": "https://cyclonedx.org/schema/jsf-0.82.schema.json",
+        "sha256": "2faf5eb3651f2ae5f46091a131770d8d847bbd121139d19c85fc7051bfa58c46"
+      },
+      {
+        "url": "https://cyclonedx.org/schema/bom-1.5.schema.json",
+        "sha256": "a00fcba23a44b72179ac1f288be4c3529b59f6e1b3719709a40685f177516b46"
+      }
+    ]
+  },
+  "warm_scan": {
+    "scan_id": "e57fd908-a75b-49bf-a6d8-1ecb93eea43c",
+    "project_name": "traceguard-live-validation-app",
+    "total_dependencies": 52,
+    "direct_dependencies": 3,
+    "transitive_dependencies": 49,
+    "vulnerability_status": "complete",
+    "vulnerability_counts": {
+      "CRITICAL": 0,
+      "HIGH": 7,
+      "MEDIUM": 7,
+      "LOW": 6,
+      "UNKNOWN": 0
+    },
+    "total_findings": 20,
+    "critical_findings": [],
+    "reachability_summary": {
+      "REACHABLE": 0,
+      "NOT_REACHABLE": 0,
+      "UNKNOWN": 20
+    },
+    "risk_summary": "Known vulnerable installed versions detected. Exploitability is assessed separately and may remain unknown.",
+    "checked_at": "2026-11-01T02:47:05.455Z",
+    "warning_count": 5,
+    "warnings": [
+      "index.js: Unresolved calls or function-value flows may invoke additional code.",
+      "index.js: Callback or function-value arguments are unsupported.",
+      "index.js: Nested functions, callbacks, and methods are not resolved."
+    ],
+    "warnings_truncated": true,
+    "truncated": true,
+    "next_cursor": "eyJzY29wZSI6IjNjMWIzMjU3MDg5NDhiZGZkZWJmMjZmYmE0NTk1ODU2ZWEwMWRkZTZmY2FiNzkwOTQxOTZkZWQzZTc1ODdhY2YiLCJvZmZzZXQiOjB9.eyc92btouF7iYHmopgnXPtiXIf0B8wfyEQxOdgxS2UY",
+    "next_tool": "check_vulnerabilities",
+    "metrics": {
+      "files_examined": 4,
+      "files_skipped": 0,
+      "directories_skipped": 0,
+      "dependencies": 52,
+      "advisories_queried": 0,
+      "osv_requests": 0,
+      "cache_hits": 55,
+      "cache_misses": 0,
+      "static_files_reused": 2,
+      "static_files_analyzed": 0,
+      "findings_returned": 0,
+      "response_bytes": 1427
+    }
+  },
+  "zip_summary": {
+    "scan_id": "ec14df2a-2953-4f77-a371-23533a089459",
+    "project_name": "traceguard-live-validation-app",
+    "total_dependencies": 52,
+    "direct_dependencies": 3,
+    "transitive_dependencies": 49,
+    "vulnerability_status": "complete",
+    "vulnerability_counts": {
+      "CRITICAL": 0,
+      "HIGH": 7,
+      "MEDIUM": 7,
+      "LOW": 6,
+      "UNKNOWN": 0
+    },
+    "total_findings": 20,
+    "critical_findings": [],
+    "reachability_summary": {
+      "REACHABLE": 0,
+      "NOT_REACHABLE": 0,
+      "UNKNOWN": 20
+    },
+    "risk_summary": "Known vulnerable installed versions detected. Exploitability is assessed separately and may remain unknown.",
+    "checked_at": "2026-11-01T02:47:44.151Z",
+    "warning_count": 5,
+    "warnings": [
+      "index.js: Unresolved calls or function-value flows may invoke additional code.",
+      "index.js: Callback or function-value arguments are unsupported.",
+      "index.js: Nested functions, callbacks, and methods are not resolved."
+    ],
+    "warnings_truncated": true,
+    "truncated": true,
+    "next_cursor": "eyJzY29wZSI6ImNlNjQyM2QyNzg4YzA4YzQyZGVkYTJlYmY4MjAzZDkwZGExNTdmZWUwMTg2YWU2ZDljMmJlZjQ3MWYwOTVjMDgiLCJvZmZzZXQiOjB9.9_zEQyJsm4CGcP9Lsv6j2NKlCL_20zNwYxyzGnrqhmM",
+    "next_tool": "check_vulnerabilities",
+    "metrics": {
+      "files_examined": 4,
+      "files_skipped": 0,
+      "directories_skipped": 0,
+      "dependencies": 52,
+      "advisories_queried": 21,
+      "osv_requests": 22,
+      "cache_hits": 0,
+      "cache_misses": 0,
+      "static_files_reused": 0,
+      "static_files_analyzed": 2,
+      "findings_returned": 0,
+      "response_bytes": 1428
+    }
+  },
+  "remediation": {
+    "first_page": {
+      "scan_id": "4c8e816b-1124-43e5-8668-324fff7bb2c9",
+      "items": [
+        {
+          "finding_id": "028c69fbcb2b2ea0c15ec379",
+          "affected_package": "body-parser",
+          "installed_version": "1.19.0",
+          "advisory_fixed_candidates": [
+            "1.20.9",
+            "2.4.0"
+          ],
+          "verified_unaffected_version": "1.20.9",
+          "checked_at": "2026-11-01T02:47:49.367Z",
+          "verification": "Version is an advisory-reported fix and an OSV exact-version query returned no current advisories (within the configured cache freshness window).",
+          "breaking_change_considerations": "Even a patch/minor or 0.x update can change behavior; review upstream release notes.",
+          "testing_instructions": [
+            "Review the advisory references and candidate release notes.",
+            "After explicit approval, update the appropriate manifest section and lockfile; preserve dev/optional dependency classification.",
+            "Run the project test/build suite in a trusted environment, then call verify_fixes with the previous scan_id."
+          ],
+          "remaining_uncertainty": [
+            "OSV absence does not prove safety; unknown vulnerabilities and registry publication/availability are not verified.",
+            "Transitive dependency: update the controlling parent package or evaluate an explicit override. No parent upgrade version is inferred."
+          ]
+        },
+        {
+          "finding_id": "201ab8fafe628a0ac64af490",
+          "affected_package": "qs",
+          "installed_version": "6.7.0",
+          "advisory_fixed_candidates": [
+            "6.7.3",
+            "6.8.3",
+            "6.9.7",
+            "6.10.3"
+          ],
+          "verification": "No unaffected candidate could be verified. No safe version is asserted.",
+          "breaking_change_considerations": "Even a patch/minor or 0.x update can change behavior; review upstream release notes.",
+          "testing_instructions": [
+            "Review the advisory references and candidate release notes.",
+            "After explicit approval, update the appropriate manifest section and lockfile; preserve dev/optional dependency classification.",
+            "Run the project test/build suite in a trusted environment, then call verify_fixes with the previous scan_id."
+          ],
+          "remaining_uncertainty": [
+            "OSV absence does not prove safety; unknown vulnerabilities and registry publication/availability are not verified.",
+            "Transitive dependency: update the controlling parent package or evaluate an explicit override. No parent upgrade version is inferred."
+          ]
+        }
+      ],
+      "total_items": 20,
+      "returned_items": 2,
+      "truncated": true,
+      "next_cursor": "eyJzY29wZSI6IjMwYTNlOTIxYTNiNTNmOWVkODg4YzU5MWQ1M2EwMTNhYzQ4NjA2YTY4YjY3OTlkMmNkY2E1OWYxOGEzODZmMWUiLCJvZmZzZXQiOjJ9.yR--gKt6v4gx3GI2nRVdzmfriskz5HsllZDy4Q3PRGE",
+      "metrics": {
+        "files_examined": 0,
+        "files_skipped": 0,
+        "directories_skipped": 0,
+        "dependencies": 0,
+        "advisories_queried": 4,
+        "osv_requests": 6,
+        "cache_hits": 0,
+        "cache_misses": 0,
+        "static_files_reused": 0,
+        "static_files_analyzed": 0,
+        "findings_returned": 2,
+        "response_bytes": 2738
+      }
+    },
+    "second_page_count": 2
+  },
+  "fix_verification": {
+    "previous_scan_id": "4c8e816b-1124-43e5-8668-324fff7bb2c9",
+    "scan_id": "8b443a41-619f-4fe0-8e87-1d9b31112d5f",
+    "resolved_findings": [
+      "3e96160d1c6e352e14a7e8d4",
+      "dc217a15e7c67382821dd80c"
+    ],
+    "remaining_findings": [
+      "028c69fbcb2b2ea0c15ec379",
+      "201ab8fafe628a0ac64af490",
+      "40a7c354f232704de6636a27",
+      "c7f452923ceeec0e6ee47019",
+      "cf52222a94a8f58373227f6e",
+      "fd74bf5753e9da232075109a",
+      "178140a0d2b6419b834c92b7",
+      "349333ae8c472827e47fbfa7",
+      "48891e25fab2dffb74d919cd",
+      "48f914fce9e1102bfdd45bf0",
+      "9784c5a7db6593ddc7a30bda",
+      "fc6eefe2f14a787640946903",
+      "462e6a9eb8f69f6736577ab3",
+      "6fd1f6ae2504fab4016e6522",
+      "992b31e0e82b6422c656816c",
+      "ab20361c9ff9b2853aa51a1b",
+      "acb3773c9717080ecbf7db09",
+      "e443cb86ca6c7d1232e1a6e3"
+    ],
+    "newly_detected_findings": [],
+    "unverified_findings": [],
+    "verification_scope": "Compares advisory identities across installed versions; resolved means absent from a complete current OSV scan, not proof of application safety.",
+    "vulnerability_status": "complete",
+    "truncated": false,
+    "metrics": {
+      "files_examined": 4,
+      "files_skipped": 0,
+      "directories_skipped": 0,
+      "dependencies": 52,
+      "advisories_queried": 19,
+      "osv_requests": 20,
+      "cache_hits": 0,
+      "cache_misses": 0,
+      "static_files_reused": 0,
+      "static_files_analyzed": 2,
+      "findings_returned": 0,
+      "response_bytes": 1325
+    }
+  },
+  "status": "passed",
+  "max_response_bytes": 5035,
+  "tool_invocations": 50,
+  "completed_at": "2026-11-01T02:47:55.499Z",
+  "server_stderr": ""
+}

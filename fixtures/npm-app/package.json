@@ -1,0 +1,12 @@
+{
+  "name": "traceguard-offline-test-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "dependencies": {
+    "traceguard-test-direct": "1.0.0",
+    "traceguard-test-parent": "1.0.0",
+    "traceguard-test-safe": "2.0.0"
+  }
+}

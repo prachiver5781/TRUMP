@@ -1,0 +1,51 @@
+{
+  "measured_at": "2026-11-01T02:51:09.340Z",
+  "summary": {
+    "scan_id": "094b5ae5-7159-48af-a0fe-92ee0716cb10",
+    "project_name": "traceguard-mcp",
+    "total_dependencies": 135,
+    "direct_dependencies": 11,
+    "transitive_dependencies": 124,
+    "vulnerability_status": "complete",
+    "vulnerability_counts": {
+      "CRITICAL": 0,
+      "HIGH": 0,
+      "MEDIUM": 0,
+      "LOW": 0,
+      "UNKNOWN": 0
+    },
+    "total_findings": 0,
+    "critical_findings": [],
+    "reachability_summary": {
+      "REACHABLE": 0,
+      "NOT_REACHABLE": 0,
+      "UNKNOWN": 0
+    },
+    "risk_summary": "No known OSV advisories matched the resolved versions within the cache freshness window; this is not a safety guarantee.",
+    "checked_at": "2026-11-01T02:51:08.683Z",
+    "warning_count": 137,
+    "warnings": [
+      "Some declared entry points are absent or unsupported (including ignored build output).",
+      "Application entry points are inferred or unavailable; external invocation cannot be excluded.",
+      "scripts/codex-config.mjs: Unresolved calls or function-value flows may invoke additional code."
+    ],
+    "warnings_truncated": true,
+    "truncated": true,
+    "next_tool": "get_scan_summary",
+    "next_mode": "detailed",
+    "metrics": {
+      "files_examined": 36,
+      "files_skipped": 21,
+      "directories_skipped": 3,
+      "dependencies": 135,
+      "advisories_queried": 0,
+      "osv_requests": 2,
+      "cache_hits": 0,
+      "cache_misses": 0,
+      "static_files_reused": 0,
+      "static_files_analyzed": 34,
+      "findings_returned": 0,
+      "response_bytes": 1335
+    }
+  }
+}

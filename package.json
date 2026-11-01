@@ -1,0 +1,39 @@
+{
+  "name": "traceguard-mcp",
+  "version": "0.1.1",
+  "description": "Evidence-backed, token-efficient local npm supply-chain analysis over MCP",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "traceguard-mcp": "dist/server/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server/index.js",
+    "dev": "tsx src/server/index.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test --test-concurrency=1 tests/*.test.ts",
+    "test:live": "tsx --test tests/osv.live.ts",
+    "measure": "tsx scripts/measure.ts",
+    "validate:prepare": "node scripts/prepare-live-validation.mjs",
+    "validate:live": "node scripts/validate-live.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "semver": "^7.7.4",
+    "typescript": "^5.9.3",
+    "yauzl": "^3.2.0",
+    "zod": "4.6.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "@types/semver": "^7.7.1",
+    "@types/yauzl": "^2.10.3",
+    "@types/yazl": "^3.3.0",
+    "tsx": "^4.21.0",
+    "yazl": "^3.3.1"
+  }
+}
